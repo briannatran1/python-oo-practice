@@ -21,6 +21,9 @@ class WordFinder:
         """generates list from file"""
         return open(self.path).readlines()
 
+        #  """Parse file -> list of words."""
+        # return [line.strip() for line in file]
+
     def count_words_read(self):
         """Print number of words read"""
         print(f"{len(self.list)} words read")
