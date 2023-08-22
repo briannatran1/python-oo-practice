@@ -24,7 +24,7 @@ class SerialGenerator:
         self.count = start
 
     def __repr__(self):
-        return f"<SerialGenerator start={self.start}>"
+        return f"<SerialGenerator start={self.start} count={self.count}>"
 
     def generate(self):
         """Generates next number in sequence"""
