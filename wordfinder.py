@@ -40,3 +40,8 @@ class SpecialWordFinder(WordFinder):
             if not word.startswith("\n") and not word.startswith("#"):
                 new_list.append(word)
         return new_list
+
+        # rithm's solution:
+        #
+        # return [word for word in super().parse(file)
+        #         if word != "" and not word.startswith("#")]
