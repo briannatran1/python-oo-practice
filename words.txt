@@ -1,0 +1,10 @@
+cat
+dog
+porcupine
+tiger
+fish
+bird
+eagle
+monkey
+rat
+horse
